@@ -1,0 +1,43 @@
+.blank {
+    position: relative;
+    width: 100%; 
+    height: 100vh;
+    color: #fff;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+  
+   .blank .arrowUp, .arrowUp{
+    position: absolute;
+    bottom: 60%;
+    right: 10%;
+    top: 10%;
+   }
+
+   .blank > a {
+    color: #fff;
+   }
+
+   .stacked-cards-container > a{
+    color: #333;
+   }
+
+   .blank .arrowDown, .arrowDown{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+   }
+  
+   a {
+    cursor: pointer;
+    transition: transform 0.5s ease; 
+}
+
+a:hover {
+    transform: translateY(-5px); 
+}
+
+
+   

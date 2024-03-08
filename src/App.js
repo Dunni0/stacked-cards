@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Blank1 from "./components/Blank1";
+import Blank2 from "./components/Blank2";
+import StackedCards from "./components/StackedCards";
+import { BrowserRouter } from "react-router-dom";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <BrowserRouter>
+      <>
+      <Blank1 />
+      <StackedCards />
+      <Blank2 />
+      </>
+      </BrowserRouter>
   );
+    
+    
 }
 
 export default App;
