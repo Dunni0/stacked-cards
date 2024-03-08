@@ -15,7 +15,7 @@ const Card = ({ angle, post }) => {
   const tiltTransform = sliding ? `rotate(${angle - 15}deg)` : `rotate(${angle}deg)`;
 
   const cardStyle = {
-    transform: `${tiltTransform} translateY(${sliding ? '-150%' : '0'})`,
+    transform: `${tiltTransform} translateY(${sliding ? '-200%' : '0'})`,
     opacity: removed ? 0 : 1,
     transition: 'transform 2s ease, opacity 5s ease', 
   };
