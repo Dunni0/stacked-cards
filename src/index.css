@@ -14,6 +14,7 @@ body{
   width: 100%; 
   height: 100vh;
   margin: 0 auto; 
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -94,8 +95,8 @@ opacity: 0;
   .card{
     height: 180px;
     width: 150px;
-    left: 25%;
-    top: 33%;
+    left: 23%;
+    top: 34%;
   }
 
   .image > img{
@@ -110,7 +111,6 @@ opacity: 0;
   .txt > p, .txt > span{
     font-size: 8px;
   }
-  
   
   
 }
